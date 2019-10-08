@@ -79,12 +79,8 @@ WSGI_APPLICATION = 'learn.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myRoad',
-        'USER': 'postgres',
-        'PASSWORD': 'applecake',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
